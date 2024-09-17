@@ -1,0 +1,73 @@
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  margin: 20px;
+  text-align: center;
+}
+
+.subheader {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.label {
+  margin: 15px;
+}
+
+.radio {
+  margin: 5px;
+}
+
+.inputText,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.fileInput {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.fileInput:hover {
+  background-color: #f1f1f1;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: lightskyblue;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: lightblue;
+}
